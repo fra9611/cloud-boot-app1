@@ -1,4 +1,5 @@
 import streamlit as st
+<<<<<<< HEAD
 import pandas as pd
 
 st.title("Hello everyone")
@@ -9,3 +10,10 @@ df = pd.read_csv("https://storage.googleapis.com/cloud-boot-app-bucket/155376884
 
 st.table(df) #table o dataframe
 
+=======
+
+st.title("Hello ereryone")
+
+st.header("This is a streamlit header")
+
+>>>>>>> 318bd56 (init repository)
