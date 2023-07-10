@@ -22,3 +22,17 @@ selected_options = st.multiselect(
     ["Opzione 1", "Opzione 2"]
 )
 st.write(selected_options)
+
+st.subheader ("Radio")
+selected_option = st.radio(
+    "Seleziona opzione:",
+    ["Opzione 1","Opzione 2"]
+)
+st.write(selected_option)
+
+st.subheader("Image")
+st.image(
+    "https://energit.it/wp-content/uploads/quanto-inquina-un-aereo.jpg"
+)
+st. subheader ("Video")
+st.video("https://www.youtube.com/watch?v=FJcijmbfp50")
