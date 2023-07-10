@@ -9,15 +9,16 @@ df = pd.read_csv("https://storage.googleapis.com/cloud-boot-app-bucket/155376884
 
 st.dataframe(df) #table o dataframe
 
-st.subheader()
+st.subheader("This is a subheader")
+
 selected_option = st.selectbox(
     "Seleziona opzione:",
     ["Opzione 1", "Opzione 2"]
 )
-st.write(selected_option)
+st.write("Selected option:")
 
 selected_options = st.multiselect(
     "Seleziona opzione:",
     ["Opzione 1", "Opzione 2"]
 )
-st.write(selected_options)
+st.write("Selected options:")
