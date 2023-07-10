@@ -15,10 +15,10 @@ selected_option = st.selectbox(
     "Seleziona opzione:",
     ["Opzione 1", "Opzione 2"]
 )
-st.write("Selected option:")
+st.write(selected_option)
 
 selected_options = st.multiselect(
     "Seleziona opzione:",
     ["Opzione 1", "Opzione 2"]
 )
-st.write("Selected options:")
+st.write(selected_options)
